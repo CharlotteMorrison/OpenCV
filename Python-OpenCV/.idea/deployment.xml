@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="PublishConfigData" serverName="https://github.com/CharlotteMorrison/Python-OpenCV.git" uploadOnCheckin="0c20440d-bae2-48ad-a497-f6841d5a01a3">
+    <serverData>
+      <paths name="https://github.com/CharlotteMorrison/Python-OpenCV.git">
+        <serverdata>
+          <mappings>
+            <mapping local="$PROJECT_DIR$" web="/" />
+          </mappings>
+        </serverdata>
+      </paths>
+    </serverData>
+    <option name="myUploadOnCheckinName" value="https://github.com/CharlotteMorrison/Python-OpenCV.git" />
+  </component>
+</project>
