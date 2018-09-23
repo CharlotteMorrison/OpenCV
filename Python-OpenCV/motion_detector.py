@@ -1,4 +1,4 @@
-#imports
+# imports
 from imutils.video import VideoStream
 import argparse
 import datetime
@@ -6,26 +6,26 @@ import imutils
 import time
 import cv2
 
-#adjust the cv2.threshold  and the --min-area
+# adjust the cv2.threshold  and the --min-area
 
-#construct arguement parser and parse arguments
+# construct arguement parser and parse arguments
 ap = argparse.ArgumentParser()
 
-#to use local video file add path
+# to use local video file add path
 ap.add_argument("-v", "--video", help="path to the video file")
 
-#get the camera stream, set a minimum sizer for motion changes (avoid noise/shadows)
+# get the camera stream, set a minimum sizer for motion changes (avoid noise/shadows)
 ap.add_argument("-a", "--min-area", type=int, default=200, help="minimum area size")
 args = vars(ap.parse_args())
 
-#if no video file, then use webcam
+# if no video file, then use webcam
 if args.get("video", None) is None:
     vs = VideoStream(src=0).start()
     time.sleep(2.0)
 else:
     vs = cv2.VideoCapture(args["video"])
 
-#intialize the first frame in the video stream
+# intialize the first frame in the video stream
 firstFrame = None
 
 #loop over frames of video
