@@ -1,7 +1,45 @@
 <component name="ProjectDictionaryState">
   <dictionary name="charl">
     <words>
+      <w>cellsperblock</w>
+      <w>cnts</w>
+      <w>dataset</w>
+      <w>datasetpath</w>
+      <w>deskew</w>
+      <w>eyecascadepath</w>
+      <w>eyerects</w>
+      <w>facecascadepath</w>
+      <w>facerects</w>
+      <w>faceroi</w>
+      <w>finalx</w>
+      <w>frameclone</w>
+      <w>imagepath</w>
+      <w>imagepaths</w>
+      <w>kaggle</w>
+      <w>linearize</w>
+      <w>linspace</w>
+      <w>maskpath</w>
+      <w>maskpaths</w>
+      <w>mnist</w>
+      <w>nize</w>
+      <w>offsetx</w>
+      <w>offsety</w>
+      <w>pixelspercell</w>
+      <w>powerx</w>
+      <w>preprocessing</w>
+      <w>quadrize</w>
+      <w>rects</w>
       <w>resized</w>
+      <w>squarex</w>
+      <w>targetnames</w>
+      <w>testdata</w>
+      <w>testtarget</w>
+      <w>traindata</w>
+      <w>traintarget</w>
+      <w>uint</w>
+      <w>xbase</w>
+      <w>xinput</w>
+      <w>xorig</w>
     </words>
   </dictionary>
 </component>

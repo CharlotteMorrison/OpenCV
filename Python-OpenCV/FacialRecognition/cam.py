@@ -7,7 +7,7 @@ ap = argparse.ArgumentParser()
 ap.add_argument("-f", "--face", required=True,
                 help="path to where the face cascade resides")
 ap.add_argument("-v", "--video", required=False,
-                help="path to where the video file (optiona)")
+                help="path to where the video file (optional)")
 args = vars(ap.parse_args())
 
 fd = FaceDetector(args["face"])
